@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="main">
+        <div class="products-content">
+            <div class="products-header">
+                <h5 class="products-header__title">Shop</h5>
+                <div class="products-header__filter">
+                    <div class="sorting">
+                        <form class="sorting-form" method="get">
+                            <p class="sorting-title">Sort by</p>
+                            <select name="orderby" class="orderby" aria-label="Shop order">
+                                <option value="menu_order" selected="selected">Sorting</option>
+                                <option value="popularity">Popularity</option>
+                                <option value="rating">Average rating</option>
+                                <option value="date">Newness</option>
+                                <option value="price">Price: low to high</option>
+                                <option value="price-desc">Price: high to low</option>
+                            </select>
+                            <input type="hidden" name="paged" value="1">
+                        </form>
+                    </div>
+                    <div class="viewing">
+                        <h6>View</h6>
+                        <ul class="shop-viewing-nav">
+                            <li class="nav-item">
+                                <a href="#"><i class="ti-layout-grid3-alt"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#"><i class="ti-view-list"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="products-list">
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/3D-VR-Glass-Virtual-Reality-300x300.jpg" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/3D-VR-Glass-300x300.jpg" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/laptop-300x300.png" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/iphone6s-300x300.png" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/iphone7s-300x300.png" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/3D-VR-Glass-Virtual-Reality-300x300.jpg" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/3D-VR-Glass-300x300.jpg" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/laptop-300x300.png" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/iphone6s-300x300.png" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/iphone7s-300x300.png" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/iphone6s-300x300.png" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-container">
+                        <div class="product-card__item">
+                            <a href="#" class="product-img">
+                                <img src="./assets/images/iphone7s-300x300.png" alt="vr glasses">
+                            </a>
+                            <ul class="product-options">
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-shopping-cart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-eye"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-heart"></i></a>
+                                </li>
+                                <li class="product-options-wishlist">
+                                    <a href=""><i class="ti-loop"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-content">
+                                <h4 class="product-content__title">3D Glass</h4>
+                                <span class="product-content__price">$540.00</span>
+                            </div>
+                        </div>
+                        <div class="product-card__desc">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,…</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products-pagination">
+                <ul class="page-numbers">
+                    <li><span class="page-numbers current">1</span></li>
+                    <li><a href="" class="page-numbers">2</a></li>
+                    <li><a href="" class="page-numbers">3</a></li>
+                    <li><a href="" class="page-numbers">4</a></li>
+                    <li><span href="" class="page-numbers dots">...</span></li>
+                    <li><a href="" class="page-numbers">6</a></li>
+                    <li><a href="" class="page-numbers">7</a></li>
+                    <li><a href="" class="page-numbers">8</a></li>
+                    <li><a href="" class="page-numbers next">→</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
