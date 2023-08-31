@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Rubik:wght@300;400;500;700&display=swap');
 
 * {
     padding: 0;
@@ -20,8 +20,161 @@ a {
     padding-bottom: 40px;
 }
 
+// Header
+.header {
+    padding-bottom: 30px;
+}
+
+.header .contact-section {
+    margin-bottom: 5px;
+    height: 41px;
+    background-color: #F5F5F5;
+}
+
+.header .contact-section .contact-container {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Rubik, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-section .contact-container .info {
+    display: flex;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+.contact-section .contact-container .login {
+    padding: 10px;
+    margin-right: -10px;
+    font-size: 13px;
+}
+
+.contact-section .contact-container .info span {
+    font-size: 13px;
+}
+
+.delivery .delivery-icon, .policy .policy-icon {
+    padding-right: 17px;
+}
+
+.delivery, .policy {
+    padding-right: 20px;
+    margin-right: 14px;
+    border-right: .8px #D7D7D7 solid;
+}
+
+.policy {
+    margin-right: 40px;
+}
+
+.following .following-text, .following .following-icon{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-section {
+    width: 1110px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-section .tab .options {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-section .tab .options li {
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-section .wish-lists {
+    font-size: 30px;
+}
+
+.nav-section .wish-lists i:first-child {
+    margin-right: 20px;
+}
+
+.search-section {
+    width: 1110px;
+    height: 60.6px;
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-section .categories, .search-section .search-bar, .search-section .coupon {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search-section .categories .categories-container {
+    width: 255px;
+    height: 100%;
+    background-color: #0063D1;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 22px 42px 21px 42px;
+    text-align: center;
+}
+
+.search-section .search-bar {
+    width: 540px;
+}
+
+.search-bar .search-bar-container {
+    height: 100%;
+    display: flex;
+}
+
+.search-section .coupon .coupon-button {
+    width: 250px;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 8px 70px 7px 70px;
+    border-radius: 5px;
+    text-align: center;
+}
+// ----------------------------------------------------------------
+// Breadcrumbs
+.breadcrumb {
+    width: 100%;
+    height: 80px;
+    background-color: #fafafa;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    margin-top: 20px;
+}
+
+.breadcrumb .breadcrumb-container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+.breadcrumb .breadcrumb-container span {
+    font-weight: 500;
+}
+
+// ----------------------------------------------------------------
+// Products Content
 .products-content {
     width: 1140px;
+    padding-top: 40px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -269,6 +422,12 @@ a {
 }
 
 @media (min-width: 740px) and (max-width: 1023px) {
+
+    .header .header-container .contact-section, .header .header-container .nav-section .wish-lists {
+        display: none;
+    }
+
+    .header .header-container .nav-section, .breadcrumb .breadcrumb-container,
     .products-content {
         width: 930px;
     }
@@ -280,6 +439,16 @@ a {
 }
 
 @media (max-width: 740px) {
+
+    .nav-section .logo {
+        margin-left: 50px;
+    }
+
+    .header .header-container .contact-section, .header .header-container .nav-section .wish-lists, .header .header-container .nav-section .tab {
+        display: none;
+    }
+
+    .header .header-container .nav-section, .breadcrumb .breadcrumb-container,
     .products-content {
         width: 510px;
     }
@@ -288,4 +457,5 @@ a {
         width: 100%;
         flex-direction: column;
     }
+
 }
